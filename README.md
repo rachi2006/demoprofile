@@ -1,3 +1,68 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Courier New, monospace">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="photoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003b0f"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="420" fill="#000000"/>
+
+  <!-- outer glow border -->
+  <rect x="8" y="8" width="884" height="404" rx="6" fill="none" stroke="#00FF41" stroke-width="1.5" filter="url(#glow)" opacity="0.9"/>
+
+  <!-- top bar dots -->
+  <circle cx="30" cy="28" r="5" fill="#FF5F56"/>
+  <circle cx="48" cy="28" r="5" fill="#FFBD2E"/>
+  <circle cx="66" cy="28" r="5" fill="#27C93F"/>
+  <text x="800" y="33" fill="#00FF41" font-size="12" text-anchor="end" opacity="0.8">rachi2006.connect@gmail.com</text>
+
+  <!-- photo box -->
+  <rect x="30" y="55" width="270" height="300" rx="4" fill="url(#photoGrad)" stroke="#00FF41" stroke-width="1.2" filter="url(#glow)"/>
+  <text x="165" y="45" fill="#00FF41" font-size="12" text-anchor="middle" opacity="0.7">VISUAL.MAP</text>
+
+  <!-- simple silhouette icon -->
+  <circle cx="165" cy="150" r="55" fill="#00FF41" opacity="0.15"/>
+  <circle cx="165" cy="140" r="38" fill="none" stroke="#00FF41" stroke-width="2" filter="url(#glow)"/>
+  <path d="M 95 320 Q 95 220 165 220 Q 235 220 235 320 Z" fill="none" stroke="#00FF41" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- system info panel -->
+  <text x="330" y="45" fill="#00FF41" font-size="13" font-weight="bold" opacity="0.8">SYSTEM.INFO</text>
+
+  <g font-size="13" fill="#00FF41">
+    <text x="330" y="75" font-weight="bold">rachi2006.connect@gmail.com</text>
+
+    <text x="330" y="105">Subject ..............</text>
+    <text x="330" y="128">Role ..................</text>
+    <text x="330" y="151">Origin ................</text>
+    <text x="330" y="174">Education .........</text>
+    <text x="330" y="197">Status ...............</text>
+    <text x="330" y="220">ToolChain ..........</text>
+
+    <text x="330" y="255">Core.Lang .........</text>
+    <text x="330" y="278">Core.Frontend ...</text>
+    <text x="330" y="301">Core.Backend ....</text>
+    <text x="330" y="324">Core.Database ..</text>
+    <text x="330" y="347">Core.Infra .........</text>
+
+    <text x="600" y="220" opacity="0.8">- Contact -</text>
+    <text x="600" y="243">Grid.Mail ..........</text>
+    <text x="600" y="266">Grid.Portfolio ...</text>
+    <text x="600" y="289">Grid.LinkedIn ....</text>
+    <text x="600" y="312">Grid.GitHub .......</text>
+  </g>
+
+  <text x="450" y="395" fill="#00FF41" font-size="11" text-anchor="middle" opacity="0.6">More about me &amp; projects below in README</text>
+</svg>
+
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+YOUR_NAME_;Flutter+Developer;ML+Learner+%7C+Tech+Nerd;Welcome+to+my+terminal" alt="Typing SVG" />
 </h1>
