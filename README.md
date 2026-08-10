@@ -141,6 +141,9 @@
 * Basic ML models
 
 (Upload these soon 🚀)
+<br>
+<img src="https://www.gitskins.com/api/section/projects?username=rachi2006&theme=github-dark&style=aura" alt="GitSkins Animated Projects" width="860" />
+
 
 
 ---
