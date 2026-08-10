@@ -85,10 +85,9 @@
 <img src="https://streak-stats.demolab.com?user=rachi2006&theme=tokyonight&hide_border=true" height="170"/>
 
 <br><br>
+<img src="https://www.gitskins.com/api/section/stats?username=rachi2006&theme=github-dark&style=aura" alt="GitSkins Animated Stats" width="860" />
+<br><br>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rachi2006&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
-
-</div>
 
 
 ## 📈 Activity Overview
